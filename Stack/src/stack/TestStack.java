@@ -42,6 +42,14 @@ public class TestStack
             s.push("four");
             System.out.println(s);
             s.push("five");
+            System.out.println(s);
+            s.push("two");
+            System.out.println(s);
+            s.push("three");
+            System.out.println(s);
+            s.pop();
+            System.out.println(s);
+            s.pop();
         }
     }
 }
